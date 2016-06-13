@@ -1,3 +1,4 @@
+import time
 # for x in "abcd":
 #     print x , "hello world"
 # for x in [0,1,2,3,4,5]:
@@ -23,5 +24,14 @@ for a in range(5):
     for b in range(a):
         print '#',
     print '*'
+    
+for x in range(100):
+    print x
+    time.sleep(1)
+    print "#"*30
+    if x==3:
+        break
+else :
+    print "ending"
 
     
