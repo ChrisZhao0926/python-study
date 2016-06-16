@@ -21,4 +21,3 @@ operator={"+":add,"-":sub,"*":mul,"/":div}
 def oper(x,o,y):
     print operator.get(o)(x,y)
     
-oper(3,"/",2)

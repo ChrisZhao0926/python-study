@@ -1,2 +1,4 @@
 
-import insideFunc
+import switch
+
+switch.oper(3,"/",4)
